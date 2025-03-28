@@ -9,7 +9,7 @@
 <body>
     <section class="form-container">
         <h2>Registro de Usuarios</h2>
-        <form action="procesar_registro.php" method="POST">
+         <form id="registrationForm">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
             
@@ -22,7 +22,7 @@
             <label for="confirm_password">Confirmar Contraseña:</label>
             <input type="password" id="confirm_password" name="confirm_password" required>
             
-            <button type="submit" onclick="location.href='https://danelxg.github.io/index.html'">Registrar</button>
+            <button type="submit">Registrar</button>
         </form>
         <div class="external-button">
             <p>¿Ya tienes una cuenta?</p>
@@ -63,5 +63,6 @@
             </tbody>
         </table>
     </section>
+        <script src="registro.js"></script>
 </body>
 </html>
